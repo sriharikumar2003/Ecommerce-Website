@@ -1,0 +1,274 @@
+body{
+    background-color: rgb(164, 163, 163);
+}
+
+.navbar{
+    height: 50px;
+}
+form{
+    display: flex;
+    gap: 10px;
+}
+.search{
+    height: 41px;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+    width: 50px;
+}
+img{
+    height: 88vh;
+    width: 100%;
+}
+.partone{
+    background-image: url(headphones.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    text-align: center;
+}
+.parttwo{
+    background-image: url(headphones\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+
+}
+.partthree{
+    background-image: url(headphones\ first.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    
+}
+.firstho{
+    text-align: center ;
+    margin-top: 150px;
+    font-size: 90px  !important;
+}
+.firstp{
+    font-size: 50px;
+    width: 100%;
+}
+.align{
+    width: 100%;
+    align-items: center;
+}
+.firstb{
+    height: 60px;
+    width: 120px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+.secondp{
+    font-size: 50px;
+    color: white;
+    margin-top: 200px;
+    width: 50%;
+    float: right;
+}
+.second{
+    width: 100%;
+    float: right;
+}
+.secondb{
+    height: 60px;
+    width: 120px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    float: right;
+    margin-right: 100px;
+}
+.thridp{
+    margin-top: 200px;
+    font-size: 50px;
+    width: 70%;
+}
+.thirdb{
+    height: 60px;
+    width: 120px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin-left: 600px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+}
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.scroll-item {
+    flex: 0 0 auto; 
+    width: 310px;     
+    height: 310px; 
+    margin: 10px;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.scrolls{
+    height: 100vh;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.formp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    vertical-align: center;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.service{
+    height: 90vh;
+}
+.services{
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+}
+.card{
+    height: 90vh !important;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.2s;  
+    cursor: pointer;
+}
+.buy{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 150px;
+}
+.buy:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: rgb(97, 98, 100);
+}
+.scroll-item:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+    background-color: rgb(250, 250, 250);
+}
+.body{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url(feedback.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+.containerf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.feedback-form {
+    width: 100%;
+    max-width: 600px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.feedback-form h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttonf {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.buttonf:hover {
+    background-color: #0056b3;
+}
+
+
+@media screen and (max-width: 800px){
+    .services{
+        margin-bottom: 180px;
+    }
+    .firstp,.secondp,.thridp{
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .partone,.parttwo,.partthree{
+        height: 600px;
+    }
+    .firstho{
+        margin-top: 30px;
+    }
+
+}
+
+
+
+
